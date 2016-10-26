@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}Index{% endblock title %}
+
+{% block body %}
+
+
+{% if imgurl %}
+<p class=image>
+    <a href="{{ imgurl }}"><img src="{{ imgurl }}"></a>
+</p>
+
+{% else %}
+<p>No posts yet.</p>
+{% endif %}
+
+{% endblock body %}
