@@ -1,0 +1,1 @@
+mylogin.py:加入14行的代码，访问http://hostname:5000会自动跳到http://hostname:5000/login?next=%2F，认证成功后会自动跳到next参数所指的URL
